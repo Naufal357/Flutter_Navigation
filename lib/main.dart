@@ -23,6 +23,7 @@ class FirstScreen extends StatelessWidget {
         title: const Text('First Screen'),
       ),
       body: Center(
+        
         child: ElevatedButton(
           onPressed: () {
             Navigator.pushNamed(context, '/second');
